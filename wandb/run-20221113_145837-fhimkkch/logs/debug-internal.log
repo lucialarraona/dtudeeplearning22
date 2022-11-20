@@ -1,0 +1,71 @@
+2022-11-13 14:58:39,236 INFO    MainThread:13502 [internal.py:wandb_internal():63] W&B internal server running at pid: 13502
+2022-11-13 14:58:39,238 DEBUG   SenderThread:13502 [sender.py:send():90] send: header
+2022-11-13 14:58:39,238 INFO    WriterThread:13502 [datastore.py:open_for_write():76] open: /Users/lucialarraona/Desktop/projects_sem2/dtudeeplearning22/wandb/run-20221113_145837-fhimkkch/run-fhimkkch.wandb
+2022-11-13 14:58:39,238 DEBUG   HandlerThread:13502 [handler.py:handle_request():55] handle_request: check_version
+2022-11-13 14:58:39,239 DEBUG   SenderThread:13502 [sender.py:send():90] send: request
+2022-11-13 14:58:39,239 DEBUG   SenderThread:13502 [sender.py:send_request():99] send_request: check_version
+2022-11-13 14:58:39,243 DEBUG   Thread-4  :13502 [connectionpool.py:_new_conn():1003] Starting new HTTPS connection (1): pypi.org:443
+2022-11-13 14:58:39,299 DEBUG   Thread-4  :13502 [connectionpool.py:_make_request():456] https://pypi.org:443 "GET /pypi/wandb/json HTTP/1.1" 200 68841
+2022-11-13 14:58:39,322 DEBUG   SenderThread:13502 [sender.py:send():90] send: run
+2022-11-13 14:58:39,325 DEBUG   SenderThread:13502 [cmd.py:execute():718] Popen(['git', 'cat-file', '--batch-check'], cwd=/Users/lucialarraona/Desktop/projects_sem2/dtudeeplearning22, universal_newlines=False, shell=None, istream=<valid stream>)
+2022-11-13 14:58:39,355 DEBUG   SenderThread:13502 [connectionpool.py:_new_conn():1003] Starting new HTTPS connection (1): api.wandb.ai:443
+2022-11-13 14:58:39,561 DEBUG   SenderThread:13502 [connectionpool.py:_make_request():456] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 464
+2022-11-13 14:58:39,567 INFO    SenderThread:13502 [dir_watcher.py:__init__():165] watching files in: /Users/lucialarraona/Desktop/projects_sem2/dtudeeplearning22/wandb/run-20221113_145837-fhimkkch/files
+2022-11-13 14:58:39,567 INFO    SenderThread:13502 [sender.py:_start_run_threads():487] run started: fhimkkch with start time 1668347917
+2022-11-13 14:58:39,568 DEBUG   HandlerThread:13502 [handler.py:handle_request():55] handle_request: run_start
+2022-11-13 14:58:39,570 DEBUG   SenderThread:13502 [sender.py:send():90] send: summary
+2022-11-13 14:58:39,572 DEBUG   HandlerThread:13502 [cmd.py:execute():718] Popen(['git', 'cat-file', '--batch-check'], cwd=/Users/lucialarraona/Desktop/projects_sem2/dtudeeplearning22, universal_newlines=False, shell=None, istream=<valid stream>)
+2022-11-13 14:58:39,572 INFO    SenderThread:13502 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2022-11-13 14:58:39,584 DEBUG   HandlerThread:13502 [cmd.py:execute():718] Popen(['git', 'rev-parse', '--show-toplevel'], cwd=/Users/lucialarraona/Desktop/projects_sem2/dtudeeplearning22, universal_newlines=False, shell=None, istream=None)
+2022-11-13 14:58:39,679 DEBUG   SenderThread:13502 [sender.py:send():90] send: files
+2022-11-13 14:58:39,679 INFO    SenderThread:13502 [sender.py:_save_file():568] saving file wandb-metadata.json with policy now
+2022-11-13 14:58:39,683 DEBUG   HandlerThread:13502 [handler.py:handle_request():55] handle_request: status
+2022-11-13 14:58:39,685 DEBUG   Thread-11 :13502 [connectionpool.py:_new_conn():1003] Starting new HTTPS connection (1): api.wandb.ai:443
+2022-11-13 14:58:39,687 DEBUG   SenderThread:13502 [sender.py:send():90] send: request
+2022-11-13 14:58:39,687 DEBUG   SenderThread:13502 [sender.py:send_request():99] send_request: status
+2022-11-13 14:58:39,691 DEBUG   SenderThread:13502 [connectionpool.py:_new_conn():1003] Starting new HTTPS connection (1): api.wandb.ai:443
+2022-11-13 14:58:39,876 DEBUG   Thread-11 :13502 [connectionpool.py:_make_request():456] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 589
+2022-11-13 14:58:39,882 DEBUG   SenderThread:13502 [connectionpool.py:_make_request():456] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 47
+2022-11-13 14:58:39,890 DEBUG   Thread-11 :13502 [connectionpool.py:_new_conn():1003] Starting new HTTPS connection (1): storage.googleapis.com:443
+2022-11-13 14:58:40,275 DEBUG   Thread-11 :13502 [connectionpool.py:_make_request():456] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/lucialarraona/dtu_deepl_m1/fhimkkch/wandb-metadata.json?Expires=1668434321&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=gnYM%2Ftqmzu9wsDXGifNYbkAjZ2E8EF8p2mD8TQ0VppvFWdZkAy54sZGgBgz1ti3B%2By5WtjBwqrggF08N%2Bgt59sP7Nkrw5Gl3irNuGZdixOyKxLOvWEixe4A530%2FquXB6bfTBzKB1l4liMiOPjqslHi8AF%2F5%2FEX8PUlrGO5%2BG39l2NyV2VEo2yyDsa9HjvEhcbz7laqvRRVnrBJEnHjJ%2FMKTe6P8jPiFso6rMxMwyrmYU9g3k3Z%2Fj8WRfDEn4girrHliFklD1fV8hc%2F9FMxsRxGm9JTAiTh9kgcPazEqsI2bCx%2FsiYOUPTbS%2Bt5wvR7YB7CAHSLn%2FnXHrY%2BFR9ZojDA%3D%3D HTTP/1.1" 200 0
+2022-11-13 14:58:40,277 INFO    Thread-11 :13502 [upload_job.py:push():131] Uploaded file /var/folders/0l/b401ys7x3v303b2m4jkcr32r0000gn/T/tmpqwdufntjwandb/2h3e7nsy-wandb-metadata.json
+2022-11-13 14:58:40,569 INFO    Thread-8  :13502 [dir_watcher.py:_on_file_created():213] file/dir created: /Users/lucialarraona/Desktop/projects_sem2/dtudeeplearning22/wandb/run-20221113_145837-fhimkkch/files/requirements.txt
+2022-11-13 14:58:40,569 INFO    Thread-8  :13502 [dir_watcher.py:_on_file_created():213] file/dir created: /Users/lucialarraona/Desktop/projects_sem2/dtudeeplearning22/wandb/run-20221113_145837-fhimkkch/files/wandb-metadata.json
+2022-11-13 14:58:40,570 INFO    Thread-8  :13502 [dir_watcher.py:_on_file_created():213] file/dir created: /Users/lucialarraona/Desktop/projects_sem2/dtudeeplearning22/wandb/run-20221113_145837-fhimkkch/files/output.log
+2022-11-13 14:58:41,573 DEBUG   Thread-5  :13502 [connectionpool.py:_new_conn():1003] Starting new HTTPS connection (1): api.wandb.ai:443
+2022-11-13 14:58:41,760 DEBUG   Thread-5  :13502 [connectionpool.py:_make_request():456] https://api.wandb.ai:443 "POST /files/lucialarraona/dtu_deepl_models/fhimkkch/file_stream HTTP/1.1" 200 181
+2022-11-13 14:58:42,955 DEBUG   SenderThread:13502 [sender.py:send():90] send: stats
+2022-11-13 14:58:45,154 DEBUG   Thread-5  :13502 [connectionpool.py:_make_request():456] https://api.wandb.ai:443 "POST /files/lucialarraona/dtu_deepl_models/fhimkkch/file_stream HTTP/1.1" 200 181
+2022-11-13 14:58:47,445 DEBUG   SenderThread:13502 [sender.py:send():90] send: stats
+2022-11-13 14:58:47,621 DEBUG   Thread-5  :13502 [connectionpool.py:_make_request():456] https://api.wandb.ai:443 "POST /files/lucialarraona/dtu_deepl_models/fhimkkch/file_stream HTTP/1.1" 200 181
+2022-11-13 14:58:48,261 WARNING MainThread:13502 [internal.py:is_dead():285] Internal process exiting, parent pid 13486 disappeared
+2022-11-13 14:58:48,261 ERROR   MainThread:13502 [internal.py:wandb_internal():113] Internal process shutdown.
+2022-11-13 14:58:48,446 INFO    HandlerThread:13502 [handler.py:finish():271] shutting down handler
+2022-11-13 14:58:48,447 INFO    WriterThread:13502 [datastore.py:close():257] close: /Users/lucialarraona/Desktop/projects_sem2/dtudeeplearning22/wandb/run-20221113_145837-fhimkkch/run-fhimkkch.wandb
+2022-11-13 14:58:48,447 INFO    SenderThread:13502 [sender.py:finish():642] shutting down sender
+2022-11-13 14:58:48,448 INFO    SenderThread:13502 [dir_watcher.py:finish():279] shutting down directory watcher
+2022-11-13 14:58:48,582 INFO    SenderThread:13502 [dir_watcher.py:finish():309] scan: /Users/lucialarraona/Desktop/projects_sem2/dtudeeplearning22/wandb/run-20221113_145837-fhimkkch/files
+2022-11-13 14:58:48,582 INFO    SenderThread:13502 [dir_watcher.py:finish():315] scan save: /Users/lucialarraona/Desktop/projects_sem2/dtudeeplearning22/wandb/run-20221113_145837-fhimkkch/files/requirements.txt requirements.txt
+2022-11-13 14:58:48,583 INFO    SenderThread:13502 [dir_watcher.py:finish():315] scan save: /Users/lucialarraona/Desktop/projects_sem2/dtudeeplearning22/wandb/run-20221113_145837-fhimkkch/files/output.log output.log
+2022-11-13 14:58:48,588 INFO    SenderThread:13502 [dir_watcher.py:finish():315] scan save: /Users/lucialarraona/Desktop/projects_sem2/dtudeeplearning22/wandb/run-20221113_145837-fhimkkch/files/config.yaml config.yaml
+2022-11-13 14:58:48,588 INFO    SenderThread:13502 [dir_watcher.py:finish():315] scan save: /Users/lucialarraona/Desktop/projects_sem2/dtudeeplearning22/wandb/run-20221113_145837-fhimkkch/files/wandb-summary.json wandb-summary.json
+2022-11-13 14:58:48,593 INFO    SenderThread:13502 [dir_watcher.py:finish():315] scan save: /Users/lucialarraona/Desktop/projects_sem2/dtudeeplearning22/wandb/run-20221113_145837-fhimkkch/files/wandb-metadata.json wandb-metadata.json
+2022-11-13 14:58:48,593 INFO    SenderThread:13502 [file_pusher.py:finish():169] shutting down file pusher
+2022-11-13 14:58:48,593 INFO    SenderThread:13502 [file_pusher.py:join():174] waiting for file pusher
+2022-11-13 14:58:48,595 DEBUG   Thread-12 :13502 [connectionpool.py:_new_conn():1003] Starting new HTTPS connection (1): api.wandb.ai:443
+2022-11-13 14:58:48,599 DEBUG   Thread-13 :13502 [connectionpool.py:_new_conn():1003] Starting new HTTPS connection (1): api.wandb.ai:443
+2022-11-13 14:58:48,601 DEBUG   Thread-14 :13502 [connectionpool.py:_new_conn():1003] Starting new HTTPS connection (1): api.wandb.ai:443
+2022-11-13 14:58:48,800 DEBUG   Thread-13 :13502 [connectionpool.py:_make_request():456] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 586
+2022-11-13 14:58:48,808 DEBUG   Thread-14 :13502 [connectionpool.py:_make_request():456] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 579
+2022-11-13 14:58:48,809 DEBUG   Thread-12 :13502 [connectionpool.py:_make_request():456] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 589
+2022-11-13 14:58:48,819 DEBUG   Thread-13 :13502 [connectionpool.py:_new_conn():1003] Starting new HTTPS connection (1): storage.googleapis.com:443
+2022-11-13 14:58:48,823 DEBUG   Thread-14 :13502 [connectionpool.py:_new_conn():1003] Starting new HTTPS connection (1): storage.googleapis.com:443
+2022-11-13 14:58:48,824 DEBUG   Thread-12 :13502 [connectionpool.py:_new_conn():1003] Starting new HTTPS connection (1): storage.googleapis.com:443
+2022-11-13 14:58:49,197 DEBUG   Thread-13 :13502 [connectionpool.py:_make_request():456] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/lucialarraona/dtu_deepl_m1/fhimkkch/config.yaml?Expires=1668434330&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=HtO%2FbXjlfPTZXTiPmSsh1Y29FI39Sq1GEFGjAtkCOpGNbZTlTnkYMaGVL4nMzU9k3hKcoiAZZe1ANTHqoLOU%2BxS6za2Y3dPiI5WyoiVnD9Sq2TMXsRo1GfGEInnCISRcAZ8fF0XS9QRBKqugvAHuipxXpZ%2FGdQwd4goxC3p6Qa4a%2BZ2IS9V6EUlDNKCClSTOHtSfOsy%2F%2FQVIGVSZLN%2B2Wkq%2F2FPBYFS5sFDeNhJ0SA%2Bt9x6AFVR87GCUnzpLgx%2B298HmZuFZXgAZFxpBgcBibz7Jzk1coQ%2BYJdZq1cUpfhqqivKJL9JmF0SxWgz%2BA4JrwCRX%2B3smMzAxJXBG8O8tBw%3D%3D HTTP/1.1" 200 0
+2022-11-13 14:58:49,202 INFO    Thread-13 :13502 [upload_job.py:push():131] Uploaded file /Users/lucialarraona/Desktop/projects_sem2/dtudeeplearning22/wandb/run-20221113_145837-fhimkkch/files/config.yaml
+2022-11-13 14:58:49,209 DEBUG   Thread-14 :13502 [connectionpool.py:_make_request():456] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/lucialarraona/dtu_deepl_m1/fhimkkch/wandb-summary.json?Expires=1668434330&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=GcOa%2FVC8ia3sgsvfna%2FxThUDGXNOAcKhqndzYTqycNK3i5r4rHKM1jSiBMp1qFA9G7Spd8r6VfOMTerQTaa1%2FamJaGZ%2BsqagcvEwX6mlIag82ZxRFLxnOm2IZgXqGu%2ByIOcCB4c0sEkSM7TAcAzgovC1E8Z8S1tVSb1neMlcgPDcBAQsgWjAejOiJXKF6uLO1HGMuk0rjW35x637ngOXcocN6qzMm9qTAx9qbh38VPEKj7xpCrUXDC1WzxltRM7nD955cuViZm6uqn9%2BY7xyl9oxEI%2BMoqQrK4vvERvEaWWJzGmwGlko6ouvWZsTD96%2BSACBt02EjazZ5UI9Wti%2BcA%3D%3D HTTP/1.1" 200 0
+2022-11-13 14:58:49,214 INFO    Thread-14 :13502 [upload_job.py:push():131] Uploaded file /Users/lucialarraona/Desktop/projects_sem2/dtudeeplearning22/wandb/run-20221113_145837-fhimkkch/files/wandb-summary.json
+2022-11-13 14:58:49,228 DEBUG   Thread-12 :13502 [connectionpool.py:_make_request():456] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/lucialarraona/dtu_deepl_m1/fhimkkch/requirements.txt?Expires=1668434330&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=rmYjEjgTO1rzUIcr9tz33KbKY%2FSTuNPLwSEWe%2Bo6M%2FDPb%2B804hUGaIUrfIZKby8oBGn2MhT1aOlUv3AaP9rumzgKCHp6YUfd94XW7QGgh%2BdnfhX7XWd04TnVbdBjoRqXUI2DH80E5fHLS%2FPCqchQASGsNw5zpsPNDbEfIxOQR4IeseQAdQ9RWSERHvWB5lwHELMq%2B3LN%2B3UxorcY3VCQcD3%2F%2BYwNMerwG180lmyTEhuNrOndkUoCjo0PX3JD8RBhX%2BrgrPzIoQqxDYFAmtzUg%2FJdvzB2Yk55xsj7nuNfveIxo2cX%2Bqm%2Fg7hSt%2F7WHVLYwPaTYRwWVNHFFrbYtb9DCw%3D%3D HTTP/1.1" 200 0
+2022-11-13 14:58:49,232 INFO    Thread-12 :13502 [upload_job.py:push():131] Uploaded file /Users/lucialarraona/Desktop/projects_sem2/dtudeeplearning22/wandb/run-20221113_145837-fhimkkch/files/requirements.txt
+2022-11-13 14:58:49,758 DEBUG   Thread-5  :13502 [connectionpool.py:_make_request():456] https://api.wandb.ai:443 "POST /files/lucialarraona/dtu_deepl_models/fhimkkch/file_stream HTTP/1.1" 200 181
+2022-11-13 14:58:49,767 INFO    MainThread:13502 [internal.py:handle_exit():138] Internal process exited

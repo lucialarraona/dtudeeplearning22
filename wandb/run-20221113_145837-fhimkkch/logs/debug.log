@@ -1,0 +1,14 @@
+2022-11-13 14:58:37,279 INFO    MainThread:13486 [wandb_setup.py:_flush():70] setting env: {}
+2022-11-13 14:58:37,280 INFO    MainThread:13486 [wandb_setup.py:_flush():70] multiprocessing start_methods=spawn,fork,forkserver
+2022-11-13 14:58:37,280 INFO    MainThread:13486 [wandb_setup.py:_flush():70] setting login settings: {}
+2022-11-13 14:58:37,280 INFO    MainThread:13486 [wandb_setup.py:_flush():70] setting login settings: {}
+2022-11-13 14:58:37,280 INFO    MainThread:13486 [wandb_init.py:_log_setup():303] Logging user logs to /Users/lucialarraona/Desktop/projects_sem2/dtudeeplearning22/wandb/run-20221113_145837-fhimkkch/logs/debug.log
+2022-11-13 14:58:37,280 INFO    MainThread:13486 [wandb_init.py:_log_setup():304] Logging internal logs to /Users/lucialarraona/Desktop/projects_sem2/dtudeeplearning22/wandb/run-20221113_145837-fhimkkch/logs/debug-internal.log
+2022-11-13 14:58:39,681 INFO    MainThread:13486 [wandb_run.py:_console_start():1237] atexit reg
+2022-11-13 14:58:39,682 INFO    MainThread:13486 [wandb_run.py:_redirect():1104] redirect: SettingsConsole.REDIRECT
+2022-11-13 14:58:39,682 INFO    MainThread:13486 [wandb_run.py:_redirect():1107] Redirecting console.
+2022-11-13 14:58:39,682 INFO    MainThread:13486 [redirect.py:install():204] install start
+2022-11-13 14:58:39,683 INFO    MainThread:13486 [redirect.py:install():219] install stop
+2022-11-13 14:58:39,683 INFO    MainThread:13486 [redirect.py:install():204] install start
+2022-11-13 14:58:39,683 INFO    MainThread:13486 [redirect.py:install():219] install stop
+2022-11-13 14:58:39,683 INFO    MainThread:13486 [wandb_run.py:_redirect():1151] Redirects installed.

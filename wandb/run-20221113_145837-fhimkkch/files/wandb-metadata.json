@@ -1,0 +1,22 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.8.12",
+    "heartbeatAt": "2022-11-13T13:58:39.570002",
+    "startedAt": "2022-11-13T13:58:37.276480",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "codePath": "02_Models/model_transformer.py",
+    "program": "/Users/lucialarraona/Desktop/projects_sem2/dtudeeplearning22/02_Models/model_transformer.py",
+    "git": {
+        "remote": "https://github.com/lucialarraona/dtudeeplearning22.git",
+        "commit": "306f82ed523379f48485e8fdb3652e19168a49cf"
+    },
+    "email": "lucialarraona98@gmail.com",
+    "root": "/Users/lucialarraona/Desktop/projects_sem2/dtudeeplearning22",
+    "host": "MacBook-Pro-de-Lucia.local",
+    "username": "lucialarraona",
+    "executable": "/Users/lucialarraona/opt/anaconda3/bin/python"
+}
